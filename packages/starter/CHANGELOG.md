@@ -1,5 +1,16 @@
 # @otp-service/starter
 
+## 0.1.2
+
+### Patch Changes
+
+- Refresh npm `repository` and `homepage` metadata after GitHub rename to `otp-service-package` (published tarballs still pointed at `otp-service-package-v2`).
+- Updated dependencies
+  - @otp-service/core@0.1.2
+  - @otp-service/redis-store@0.1.2
+  - @otp-service/provider-sms-twilio@0.1.2
+  - @otp-service/provider-email-resend@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes

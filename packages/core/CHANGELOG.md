@@ -1,5 +1,11 @@
 # @otp-service/core
 
+## 0.1.2
+
+### Patch Changes
+
+- Refresh npm `repository` and `homepage` metadata after GitHub rename to `otp-service-package` (published tarballs still pointed at `otp-service-package-v2`).
+
 ## 0.1.1
 
 ### Patch Changes

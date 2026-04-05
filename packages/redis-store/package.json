@@ -1,6 +1,6 @@
 {
   "name": "@otp-service/redis-store",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "Redis-backed challenge state storage for OTP services.",
   "license": "MIT",

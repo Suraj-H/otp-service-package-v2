@@ -19,6 +19,7 @@ If you have no `origin` yet, add it first, then run the command.
 1. **Create the `@otp-service` org on npm** (required before the first publish). Open [Create an organization](https://www.npmjs.com/org/create), choose the name **`otp-service`**, and complete setup. Without this, `npm publish` fails with **`E404 Not Found`** on `PUT …/@otp-service%2f…` — npm has no namespace for that scope yet.
 2. Ensure the npm user tied to your token is a **member** of that org with permission to publish packages.
 3. Create an **automation** (granular) or **classic automation** token that can **publish** those packages ([npm token docs](https://docs.npmjs.com/creating-and-viewing-access-tokens)).
+   - **Granular token:** under **Packages and scopes**, grant **Read and write** to **all packages** under the **`otp-service`** organization (or explicitly include every package name you will publish). A token that only lists existing packages can **fail with `E404`** on the **first** publish because those package names do not exist in the registry until the first successful upload.
 4. In the GitHub repo: **Settings → Secrets and variables → Actions** → add **`NPM_TOKEN`**.
 
 Publishing from CI requires a token that can publish **without interactive 2FA on publish** (2FA on login is fine; use automation tokens as npm documents).

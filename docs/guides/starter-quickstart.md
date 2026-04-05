@@ -88,4 +88,4 @@ Quickstart coverage is exercised by:
 pnpm exec vitest run tests/integration/starter-express.test.ts
 ```
 
-The runnable example is documented in [examples/starter-express-sms](/Users/surajh/Projects/otp-service-package/examples/starter-express-sms/README.md).
+The runnable example is documented in [examples/starter-express-sms](../../examples/starter-express-sms/README.md).

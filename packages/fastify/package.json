@@ -6,12 +6,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/otp-service/otp-service-package-v2.git"
+    "url": "git+https://github.com/Suraj-H/otp-service-package-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/otp-service/otp-service-package-v2/issues"
+    "url": "https://github.com/Suraj-H/otp-service-package-v2/issues"
   },
-  "homepage": "https://github.com/otp-service/otp-service-package-v2/tree/main/packages/fastify#readme",
+  "homepage": "https://github.com/Suraj-H/otp-service-package-v2/tree/main/packages/fastify#readme",
   "sideEffects": false,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

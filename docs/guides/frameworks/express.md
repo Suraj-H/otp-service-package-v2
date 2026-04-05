@@ -27,5 +27,5 @@ app.post("/otp/verify", createVerifyChallengeHandler({ otpService }));
 
 ## Reference
 
-- example app: [examples/express-sms](/Users/surajh/Projects/otp-service-package/examples/express-sms/README.md)
-- quickstart path: [examples/starter-express-sms](/Users/surajh/Projects/otp-service-package/examples/starter-express-sms/README.md)
+- example app: [examples/express-sms](../../../examples/express-sms/README.md)
+- quickstart path: [examples/starter-express-sms](../../../examples/starter-express-sms/README.md)

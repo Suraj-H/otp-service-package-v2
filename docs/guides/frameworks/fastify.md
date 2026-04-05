@@ -29,4 +29,4 @@ app.post("/otp/verify", createVerifyChallengeHandler({ otpService }));
 
 ## Reference
 
-- example app: [examples/fastify-email](/Users/surajh/Projects/otp-service-package/examples/fastify-email/README.md)
+- example app: [examples/fastify-email](../../../examples/fastify-email/README.md)

@@ -27,4 +27,4 @@ Malformed request bodies are mapped to `UnprocessableEntityException` with a `VA
 
 ## Reference
 
-- example app: [examples/nest-sms](/Users/surajh/Projects/otp-service-package/examples/nest-sms/README.md)
+- example app: [examples/nest-sms](../../../examples/nest-sms/README.md)

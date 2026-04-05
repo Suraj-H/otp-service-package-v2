@@ -75,6 +75,25 @@ importers:
         specifier: ^3.1.2
         version: 3.2.4(@types/node@22.19.17)(tsx@4.21.0)(yaml@2.8.3)
 
+  examples/dummy-login-flow:
+    dependencies:
+      '@otp-service/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@otp-service/express':
+        specifier: workspace:*
+        version: link:../../packages/express
+      '@otp-service/testkit':
+        specifier: workspace:*
+        version: link:../../packages/testkit
+      express:
+        specifier: ^5.1.0
+        version: 5.2.1
+    devDependencies:
+      tsx:
+        specifier: ^4.20.6
+        version: 4.21.0
+
   examples/express-sms:
     dependencies:
       '@otp-service/core':

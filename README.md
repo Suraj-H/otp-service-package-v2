@@ -99,7 +99,7 @@ app.post("/otp/generate", createGenerateChallengeHandler({ otpService }));
 app.post("/otp/verify", createVerifyChallengeHandler({ otpService }));
 ```
 
-See the quickstart example in [examples/starter-express-sms/README.md](examples/starter-express-sms/README.md).
+See the quickstart example in [examples/starter-express-sms/README.md](examples/starter-express-sms/README.md). For a minimal **login-shaped** OTP flow (request → verify → session token), see [examples/dummy-login-flow/README.md](examples/dummy-login-flow/README.md).
 
 ## Direct Package Path
 

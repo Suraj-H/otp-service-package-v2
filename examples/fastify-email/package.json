@@ -9,7 +9,7 @@
     "@otp-service/core": "workspace:*",
     "@otp-service/fastify": "workspace:*",
     "@otp-service/testkit": "workspace:*",
-    "fastify": "^5.3.3"
+    "fastify": "^5.8.5"
   },
   "devDependencies": {
     "tsx": "^4.20.6"

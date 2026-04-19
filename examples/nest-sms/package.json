@@ -6,9 +6,9 @@
     "dev": "node --import tsx src/server.ts"
   },
   "dependencies": {
-    "@nestjs/common": "^11.1.6",
-    "@nestjs/core": "^11.1.6",
-    "@nestjs/platform-express": "^11.1.6",
+    "@nestjs/common": "^11.1.19",
+    "@nestjs/core": "^11.1.19",
+    "@nestjs/platform-express": "^11.1.19",
     "@otp-service/core": "workspace:*",
     "@otp-service/nest": "workspace:*",
     "@otp-service/testkit": "workspace:*",
